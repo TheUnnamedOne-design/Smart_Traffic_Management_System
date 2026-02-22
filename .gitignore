@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyTorch Models & Weights
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.h5
+*.weights
+
+# Saved Models & Checkpoints
+**/weights/
+**/checkpoints/
+**/saved_model/
+**/best_saved_model/
+runs/
+wandb/
+
+# Dataset Files (uncomment if needed)
+dataset_yolo/images/
+# dataset_yolo/labels/
+
+# Training Outputs
+*.csv
+results.csv
+yolo_v7_metrics.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

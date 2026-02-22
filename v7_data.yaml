@@ -1,0 +1,12 @@
+# v7_data.yaml
+# YOLO dataset configuration for V7 training.
+# Generated automatically by Distiller_YOLO_V7.py.
+# Points to the labeled frames collected from the 11-video YouTube playlist.
+
+train: dataset_yolo/images/train
+val:   dataset_yolo/images/val
+
+# Single class — car, bus, truck, motorcycle all merged into "vehicle"
+# to keep the edge model simple and fast.
+nc: 1
+names: ['vehicle']
